@@ -1,0 +1,7 @@
+Request-Response: es uno de los métodos básicos que usan las computadoras para comunicarse entre sí, en el que la primera computadora envía una solicitud de algunos datos y la segunda responde a la solicitud.
+
+Por lo general, hay una serie de intercambios de este tipo hasta que se envía el mensaje completo.
+
+Por ejemplo: navegar por una página web es un ejemplo de comunicación de request-response.
+
+Request-response se puede ver como una llamada telefónica, en la que se llama a alguien y responde a la llamada; es decir hacemos una petición y recibimos una respuesta.

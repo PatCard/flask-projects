@@ -1,0 +1,15 @@
+Iteración: es la repetición de un segmento de código dentro de un programa de computadora. 
+Puede usarse tanto como un término genérico (como sinónimo de repetición), así como para 
+describir una forma específica de repetición con un estado mutable.
+
+Un ejemplo de iteración sería el siguiente:
+
+{% for key, segment in segment_details.items() %}
+        <tr>
+                <td>{{ key }}td>
+                <td>{{ segment }}td>
+        tr>
+{% endfor %}  
+En este ejemplo estamos iterando por cada segment_details.items() para mostrar los campos 
+en una tabla {{ key }} {{ segment }} de esta forma dependiendo de cuantos segment_details.items() 
+haya se repetirá el código.

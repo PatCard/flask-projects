@@ -1,0 +1,17 @@
+Esta es la guía para configurar nuestro ambiente con Python 3.
+Por lo general Mac ya incluye una instalación de Python, la puedes verificar ejecutando los siguientes comandos en una terminal:
+
+python --version
+python3 --version
+
+Debemos asegurarnos de tener python 3. Para instalar Python puedes seguir el siguiente enlace y después regresar a esta lectura.
+
+https://platzi.com/clases/1378-python-practico/14289-guia-de-instalacion-y-conceptos-basicos/
+
+Instalación en Windows
+Una vez que instalaste python 3 desde python.org vamos a verificar que también incluimos pip en esta instalación. Después debes correr el siguiente comando para instalar virtualenv:
+
+pip install virtualenv
+
+El sistema debe haber instalado virtualenv y ahora podemos comenzar con el curso.
+

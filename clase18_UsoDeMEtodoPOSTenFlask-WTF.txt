@@ -1,0 +1,9 @@
+Existen diferentes métodos para intercambiar información entre el cliente y el servidor. Entre los cuales se encuentran:
+
+GET - Es mandar la información al servidor en forma de variables a través de la url.
+
+POST - Cuando son datos especiales que no quieres que se vean en la url, se envian a través de post, que un buen número de veces se da por medio de un formulario. Tecnicámente los datos viajan a través de los headers del protocolo http.
+
+AJAX - Asyncronus javascript and XML. Permite actualizar el body de la página sin necesidad de redirigirme a otra url. EJ: cómo cuando agrego un comentario en facebook.
+
+SOCKETS - Intercambio de información en tiempo real. Ej: Un juego online o un chat.

@@ -1,0 +1,8 @@
+Para activar el development mode debes escribir lo siguiente en la consola:
+
+export FLASK_ENV=development
+echo $FLASK_ENV
+SESSION: es un intercambio de información interactiva semipermanente, también conocido como diálogo, una conversación o un encuentro, entre dos o más dispositivos de comunicación, o entre un ordenador y usuario.
+
+En Herramientas de desarrollador se puede modificar valores de cookies, entonces evitar esto se debe usar session en Flask, permitiendo asi
+guardar objetos de manera segura.

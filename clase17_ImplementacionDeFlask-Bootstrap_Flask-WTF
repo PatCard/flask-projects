@@ -1,0 +1,20 @@
+Añadir flask-wtf a requirements.txt
+
+pip install -r requirements.txt
+
+Para installar flask-wtf.
+
+
+En la documentacion de WTForms nos hablan de los validadores estos son:
+
+DataRequired(message=None) y podemos pasarle el parámetro message, este por defecto es None. Este validador revisa que el campo contenga Data, si esto es falso puedes enviar un mensaje de alerta a través del parámetro message.
+Email() Valida que el campo contenga un email, tiene distintos parámetros que puedes configurar, uno de ellos es el mensaje.
+EqualTo() este necesita el argumento del nombre del campo con el que va ser comparado, este validador nos dice si los dos campos tienen la misma información, también podemos modificar el mensaje que envie.
+InputRequired() Este verifica que exista información en el campo donde se está aplicando
+IPAddress() Por defecto valida direcciones IPv4, pero puedes modificarlo a IPv6 con el parametro IPAddress(IPv6=True)
+Length() Valida el tamaño de un string necesita los argumentos min, max si no se especifica alguno no lo tomará en consideración.
+MacAddress Verifica que sea una dirección Mac
+NumberRange() Valida un rango entre un mínimo y un máximo, el máximo es inclusive. Si falta alguno no será verificado.
+Optional() permite que hayan campos vacíos
+URL() Verifica que sea una URL la que se está pasando.
+Existen otros validadores e inclusive puedes hacer tus validadores propios, esto es explicado en la misma documentación con un ejemplo.

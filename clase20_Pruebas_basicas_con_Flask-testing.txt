@@ -1,0 +1,4 @@
+instalar flask-testing
+
+pip install -r requirements.txt 
+

@@ -1,0 +1,8 @@
+Framework: es un conjunto estandarizado de conceptos, prácticas y criterios para enfocar un tipo de problemática particular que sirve como referencia, para enfrentar y resolver nuevos problemas de índole similar.
+
+Con el ambiente virtual activado
+pip install -r requirements.txt 
+
+Inicializar extencion de flask en este caso bootstrap
+
+from flask_bootstrap import Bootstrap 
